@@ -3,5 +3,5 @@ services:
   - docker
 
 script:
-  - docker vbuild -t algofield/node .
+  - docker build -t algofield/node .
   - docker images algofield/node
